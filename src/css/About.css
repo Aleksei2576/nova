@@ -1,0 +1,11 @@
+.about-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../pages/imagesPages/about.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
+
