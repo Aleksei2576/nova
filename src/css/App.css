@@ -11,7 +11,6 @@ body{
   width: 100%;
   height: 100vh;
   font-family: Oswald, sans-serif;
-  background-color: #838383;
   list-style-type: none;
 }
 
@@ -25,12 +24,10 @@ li {
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 200;
   text-transform: uppercase;
-  text-align: left;
   opacity: 1;
-  margin-bottom: 50px;
 
 }
 
@@ -49,10 +46,17 @@ h3 {
 .header {
   display: flex;
   justify-content: space-between;
-  font-weight: 500
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
 }
 
 .start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   background: rgb(149,41,187);
   background: linear-gradient(90deg, rgba(149,41,187,0.47102591036414565) 3%, rgba(255,81,0,0.8603816526610644) 51%, rgba(255,162,0,0.7399334733893557) 100%);
@@ -60,30 +64,23 @@ h3 {
 
 .slogan {
   position: relative;
-  top: -100px;
   font-size: 80px;
   text-transform: uppercase;
   opacity: 0.9;
-  margin: 0 150px;
+  margin: 50px;
 }
 
-.slogan-row-2{
-  display: flex;
-  justify-content: space-between;
-}
-
-.slogan-row-3{
+.center{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .btn-slogan {
-  display: flex;
-  justify-content: center;
   color:  white;
   align-items: center;
   font-size: 25px;
-  padding: 20px;
+  padding: 20px 60px;
   border:  2px solid white;
   border-radius: 10px;
   cursor: pointer;
@@ -96,10 +93,9 @@ h3 {
 }
 
 .btn-slogan-body {
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 100px;
 }
 .navbar-media {
   display: none;
@@ -124,32 +120,60 @@ h3 {
 }
 
 .navigation {
-  margin-right: 80px;
+  position: absolute;
+  right: 0;
 }
 
 .logoImg {
   height: 300px;
 }
 
-.info-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 700px;
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.info-block {
-  color: white;
-  text-align: center;
-  margin: 0
-
-}
-
 .Dis {
-  width: 600px;
-  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.img-block-1 {
+  height: 500px;
+  width: 50%;
+  margin: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../pages/imagesPages/sol-img-6.jpg');
+}
+
+.img-after {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.p50 {
+  padding: 50px;
+}
+
+.pr150 {
+  padding-right: 150px;
+}
+
+.pl150 {
+  padding-left: 150px;
+}
+
+.pt50 {
+  padding-top: 50px;
 }
 
 .gradient {
@@ -163,15 +187,12 @@ h3 {
 .dis-container {
   background-color: #111111;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .discription {
+  width: 50%;
   font-size: 20px;
   line-height: 1.7;
-  text-align: justify;
   font-weight: 400;
   padding-bottom: 20px;
 }
@@ -182,6 +203,7 @@ h3 {
   color: #d39850;
   transition: 0.3s;
   font-size: 20px;
+  text-align: center;
 }
 
 .link:hover {
@@ -191,6 +213,62 @@ h3 {
 .title {
   display: flex;
   justify-content: center;
+}
+
+.contactFormBody {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  height: 170px;
+  background: rgb(149,41,187);
+  background: linear-gradient(90deg, rgba(149,41,187,0.47102591036414565) 3%, rgba(255,81,0,0.8603816526610644) 51%, rgba(255,162,0,0.7399334733893557) 100%);
+  border-radius: 100px;
+}
+
+.contactFormChild {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  width: 70%;
+  background-color: #111111;
+  border-radius: 100px;
+}
+
+.contactFormTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  width: 20%;
+}
+
+.contactInfo {
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.hrContact {
+  width: 150px
+}
+
+.contactButton {
+  background-color: rgba(255,81,0,0.8603816526610644);
+  border-radius: 30px;
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .block-body {
@@ -316,14 +394,6 @@ h3 {
     padding: 0 50px;
   }
 
-  .why {
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    height: auto;
-    margin-bottom: 30px
-  }
-
   .slide-container{
     width: 100%
   }
@@ -333,11 +403,6 @@ h3 {
   }
 
   .contact-btn-body {
-    display: flex;
-    justify-content: center;
-  }
-
-  .center {
     display: flex;
     justify-content: center;
   }

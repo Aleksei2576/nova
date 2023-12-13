@@ -1,16 +1,19 @@
 function Slogan() {
 
 	return(
-		<div className = 'slogan'>
+		<div className = 'start'>
 			<div>
-				We create ceilings for people
-			</div>
-			<div className='slogan-row-2'>
-				<div className = 'btn-slogan-body'><div className = 'btn-slogan'>You have a project?</div></div>
-				<div>who value quality</div>
-			</div>
-			<div className='slogan-row-3'>
-				and design
+				<div className = 'slogan'>
+					<div className = 'center'>
+						We create ceilings for people
+					</div>
+					<div className='center'>
+						who value quality and design
+					</div>
+				</div>
+				<div className = 'btn-slogan-body'>
+					<div className = 'btn-slogan'>You have a project?</div>
+				</div>
 			</div>
 		</div>
 	)
