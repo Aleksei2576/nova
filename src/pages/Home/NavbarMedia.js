@@ -36,15 +36,9 @@ const NavbarMedia = () => {
                 <li><Link to = '/products' 
                           onClick = {() => dispatch({type: 'products'})}
                           id = { route === '/products'? idActive: id} >Products</Link></li>
-                <li><Link to = '/solutions' 
-                          onClick = {() => dispatch({type: 'solutions'})}
-                          id = { route === '/solutions'? idActive: id} >Solutions</Link></li>
-                <li><Link to = '/projects' 
-                          onClick = {() => dispatch({type: 'projects'})}
-                          id = { route === '/projects'? idActive: id} >Projects</Link></li>
-                <li><Link to = '/contact' 
+{/*                <li><Link to = '/contact' 
                           onClick = {() => dispatch({type: 'contact'})}
-                          id = { route === '/contact'? idActive: id} >Contact</Link></li>
+                          id = { route === '/contact'? idActive: id} >Contact</Link></li>*/}
               </div>
           </ul>
        </div>

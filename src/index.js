@@ -17,10 +17,6 @@ const reducer = (state = defaultState, action) => {
 			return {route: '/about'}
 		case "products":
 			return {route: '/products'}
-		case "solutions":
-			return {route: '/solutions'}
-		case "projects":
-			return {route: '/projects'}
 		case "contact":
 			return {route: '/contact'}
 		default:

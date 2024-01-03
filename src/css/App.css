@@ -28,7 +28,6 @@ h2 {
   font-weight: 200;
   text-transform: uppercase;
   opacity: 1;
-
 }
 
 h3 {
@@ -58,9 +57,47 @@ h3 {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgb(149,41,187);
-  background: linear-gradient(90deg, rgba(149,41,187,0.47102591036414565) 3%, rgba(255,81,0,0.8603816526610644) 51%, rgba(255,162,0,0.7399334733893557) 100%);
+  background: rgb(181,120,255);
+  background: linear-gradient(90deg, rgba(181,120,255,1) 0%, rgba(255,128,69,1) 50%, rgba(255,210,106,1) 100%);
 }
+
+.textme{
+  width: 300px;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+}
+
+.icons {
+  cursor: pointer;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #111111;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsupImg {
+  width: 30px;
+  height: 30px;
+  background-image: url('../pages/imagesHome/social-media/whatsapp.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.telegramImg {
+  width: 25px;
+  height: 25px;
+  background-image: url('../pages/imagesHome/social-media/telegram.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .slogan {
   position: relative;
@@ -164,6 +201,10 @@ h3 {
   padding: 50px;
 }
 
+.pt100 {
+  padding-top: 100px;
+}
+
 .pr150 {
   padding-right: 150px;
 }
@@ -176,16 +217,167 @@ h3 {
   padding-top: 50px;
 }
 
+.flex {
+  display: flex;
+}
+
+.bigImg {
+  width: 550px;
+  height: 550px;
+}
+
+.middleImg {
+  width: 400px;
+  height: 400px;
+}
+
+.smallImg {
+  width: 300px;
+  height: 300px;
+}
+
+.commonImg {
+  background-size: cover;
+  background-position: center ;
+  margin-bottom: 30px;
+}
+
+.starCeiling {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 600px;
+}
+
+.matteCeiling {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 400px;
+}
+
+.glossCeiling{  
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 300px;
+}
+
+.backlightCeiling{
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 400px;
+}
+
+.ledSolutions{
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 500px;
+}
+
+.perforatedCelings {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 500px;
+}
+
+.acousticFabric {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 500px;
+}
+
+.printCeilings {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 300px;
+}
+
+.block3Body {
+  color:  white;
+  padding-top: 50px;
+}
+
+.block3 h3 {
+  color: white;
+}
+
+.block3 {
+  background-color: #17191a;
+  padding-bottom: 100px;
+}
+
+.alex {
+  width: 300px;
+  }
+
+.sergio {
+  width: 300px;
+}
+
+.founders {
+  padding-top: 100px;
+  width: 500px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+} p {
+  width: 450px;
+  font-size: 20px;
+}
+
+.alexImg {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 400px;
+}
+
+.sergioImg {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  height: 400px;
+}
+
+.phone {
+  font-size: 25px;
+  position: absolute;
+  margin: 30px;
+  text-transform: uppercase;
+}
+
+.mt150 {
+  margin-top: 150px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb100 {
+  margin-top: -200px;
+}
+
+.mt100 {
+  margin-top: -100px;
+}
+
+.mb150 {
+  margin-bottom: 150px;
+}
+
+.pb150 {
+  padding-bottom: 150px;
+}
+
+.flex {
+  justify-content: space-around;
+}
+
 .gradient {
   color: transparent;    
   -webkit-background-clip: text;
   background-clip: text;
-  background-color: rgb(149,41,187);
-  background-image: linear-gradient(90deg, rgba(149,41,187,0.47102591036414565) 3%, rgba(255,81,0,0.8603816526610644) 51%, rgba(255,162,0,0.7399334733893557) 100%);
+  background-color: rgb(181,120,255);
+  background-image: linear-gradient(90deg, rgba(181,120,255,1) 0%, rgba(255,128,69,1) 50%, rgba(255,210,106,1) 100%);
+}
+
+.gradient2 {
+  color: transparent;    
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: rgb(255,128,69);
+  background-image: linear-gradient(90deg, rgba(255,128,69,1) 0%, rgba(255,210,106,1) 100%);
 }
 
 .dis-container {
-  background-color: #111111;
+  background-color: #17191a;
   color: white;
 }
 
@@ -228,9 +420,10 @@ h3 {
   justify-content: space-around;
   width: 95%;
   height: 170px;
-  background: rgb(149,41,187);
-  background: linear-gradient(90deg, rgba(149,41,187,0.47102591036414565) 3%, rgba(255,81,0,0.8603816526610644) 51%, rgba(255,162,0,0.7399334733893557) 100%);
+  background: rgb(255,128,69);
+  background: linear-gradient(90deg, rgba(255,128,69,1) 0%, rgba(255,210,106,1) 100%);
   border-radius: 100px;
+  background-blend-mode: initial;
 }
 
 .contactFormChild {
@@ -239,7 +432,7 @@ h3 {
   align-items: center;
   height: 120px;
   width: 70%;
-  background-color: #111111;
+  background-color: #17191a;
   border-radius: 100px;
 }
 
@@ -252,9 +445,40 @@ h3 {
 }
 
 .contactInfo {
-  font-size: 20px;
-  font-weight: bold;
-  opacity: 0.7;
+  background-color: transparent;
+  color:  white;
+  height: 30px;
+  font-size: 23px;
+  width: 150px;
+  border: none;
+}
+
+.contactInfo::-webkit-input-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo:-ms-input-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo:-moz-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo::-moz-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo:focus{
+  outline: none;
 }
 
 .hrContact {
@@ -262,7 +486,7 @@ h3 {
 }
 
 .contactButton {
-  background-color: rgba(255,81,0,0.8603816526610644);
+  background-color: #ff8045;
   border-radius: 30px;
   width: 160px;
   height: 50px;

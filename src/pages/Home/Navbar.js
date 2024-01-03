@@ -36,20 +36,6 @@ function NavBar() {
 			        <Link onClick = {() => dispatch({type: 'products'})} 
 			        		id = {route === '/products'? idActive: id} 
 			        		to = '/products'>
-			        	Products
-			        </Link>
-			      </li>
-{/*			      <li>
-			        <Link onClick = {() => dispatch({type: 'solutions'})} 
-			        		id = {route === '/solutions'? idActive: id} 
-			        		to = '/solutions'>
-			        	Solutions
-			        </Link>
-			      </li>*/}
-			      <li>
-			        <Link onClick = {() => dispatch({type: 'projects'})}
-			        		id = {route === '/projects'? idActive: id} 
-			        		to = '/projects'>
 			        	Portfolio
 			        </Link>
 			      </li>
