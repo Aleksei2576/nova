@@ -2,13 +2,7 @@
 	position: relative;
 	overflow: hidden;
 	height: 50vw;
-	background: black;
-}
-
-@media screen and (max-width: 640px) {
-	.c-heroImageGrid {
-		margin-bottom: 20px;
-	}
+	background: #111111;
 }
 
 .c-heroImageGrid .container {

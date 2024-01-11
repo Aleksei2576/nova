@@ -1,7 +1,7 @@
 const Block3 = () => {
 	return(
 		<div className = 'block3'>
-			<h2 className = 'center gradient2 pt100'>Nova - the company with human face</h2>
+			<h2 className = 'center gradient2 pt100 mobile-3'>Nova - the company with human face</h2>
 				<div className = 'block3Body flex mt50'>
 					<div className = 'founders'>
 						<p>Иван Журавлёв, ведет видеоблог с 2015 года. Показывает работу мастера на объекте.

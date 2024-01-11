@@ -40,10 +40,38 @@ const Block = () => {
 		<div className = 'dis-container'>
 			<div className = 'pt50'>
 				<h2 className = 'pl150 gradient2'>Do you have a project?</h2>
-				<p className = 'pl150 discription'>Our manager will give you an answer <br/>
+				<p className = 'pl150 discription mobileDel'>Our manager will give you an answer <br/>
 												   about our price, sceduale? and products
 				</p>
-			<div className = 'contactFormBody'>
+
+
+			<div className = 'contactFormBody contactFormBodymobile'>
+				<div className = 'contactForm'>
+					<div className = 'contactFormTitleMobile'>Fill the form</div>
+					<div className = 'contactButton center'>
+								<input className = 'contactInfo'
+									   placeholder = 'Name'
+									   name = 'name'
+									   type = 'text' 
+									   onChange = {(e) => nameHandler(e)}/>
+							
+							</div>
+							<div className = 'contactButton center'>
+								<input className = 'contactInfo'
+									   placeholder = 'Phone number'
+									   name = 'phone'
+									   type = 'text'
+									   onChange = {(e) => phoneHandler(e)}/>
+								
+							</div>
+							<div className = 'contactButton center'>Attach your file
+							</div>
+							<div  onClick = {() => onSubmit()} className = 'contactButton center'>{loading? 'Sending...': 'Submit' }
+							</div>
+				</div>
+			</div>
+
+			<div className = 'contactFormBody mobileDel'>
 				<div className = 'contactForm center'>
 						<div className = 'contactFormTitle'>Fill the form</div>
 						<div className = 'contactFormChild'>

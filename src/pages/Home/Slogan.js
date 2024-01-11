@@ -11,9 +11,9 @@ function Slogan() {
 						who value quality and design
 					</div>
 				</div>
-				<div className = 'btn-slogan-body'>
+				{/*<div className = 'btn-slogan-body'>
 					<div className = 'btn-slogan'>You have a project?</div>
-				</div>
+				</div>*/}
 			</div>
 		</div>
 	)
