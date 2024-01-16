@@ -1,0 +1,81 @@
+.block3 {
+  padding: 50px;
+  color: black;
+  background-color: rgb(181,120,255);
+  background-image: linear-gradient(90deg, rgba(181,120,255,1) 0%, rgba(255,128,69,1) 50%, rgba(255,210,106,1) 100%);
+} 
+
+.block3Body {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.alex {
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+}
+
+.sergio { 
+  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+}
+
+.founders {
+  padding-top: 100px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+} p {
+  width: 450px;
+  font-size: 20px;
+}
+
+.names {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.commonImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center ;
+  margin-bottom: 30px;
+  height: 400px;
+  width: 300px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .block3Body {
+    display: block;
+  }
+
+  .founders {
+    padding-top: 0;
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin-bottom: 30px;
+  } p {
+  width: 100%;
+}
+
+  .alex {
+  margin: auto;
+  }
+
+  .sergio {
+    margin: auto;
+  }
+
+  .commonImg {
+    margin: 30px;
+  }
+}

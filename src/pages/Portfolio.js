@@ -1,4 +1,5 @@
 import '../css/Portfolio.css';
+import Gallery from './Home/Gallery';
 
 function Portfolio() {
 	return(
@@ -8,6 +9,7 @@ function Portfolio() {
 					<h2 className = 'slogan'>Portfolio</h2>
 				</div>
 			</div>
+			<Gallery />
 		</div>
 		)
 }

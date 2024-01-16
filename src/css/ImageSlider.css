@@ -1,9 +1,0 @@
-.divStyle {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-size: cover;
-  	height: 100vh;
-	background-position: 50% 40%;
-  	background-image: url(../pages/imagesHome/slider_1.jpg);
-}

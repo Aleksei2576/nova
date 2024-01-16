@@ -1,0 +1,148 @@
+.dis-container {
+  background-color: #17191a;
+  color: white;
+}
+
+.discription {
+  width: 50%;
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.contactFormBody {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  height: 170px;
+  background: rgb(255,128,69);
+  background: linear-gradient(90deg, rgba(255,128,69,1) 0%, rgba(255,210,106,1) 100%);
+  border-radius: 100px;
+  background-blend-mode: initial;
+}
+
+.contactFormChild {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  width: 70%;
+  background-color: #17191a;
+  border-radius: 100px;
+}
+
+.contactFormTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  width: 20%;
+}
+
+.contactInfo {
+  background-color: transparent;
+  color:  white;
+  height: 30px;
+  font-size: 23px;
+  width: 150px;
+  border: none;
+}
+
+.contactInfo::-webkit-input-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo:-ms-input-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo:-moz-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo::-moz-placeholder {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.contactInfo:focus{
+  outline: none;
+}
+
+.hrContact {
+  width: 150px
+}
+
+.contactButton {
+  background-color: #ff8045;
+  border-radius: 30px;
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .discription {
+    width: 100%;
+  }
+
+  .contactForm {
+    display: block;
+    width: 100%;
+    height: 400px;
+    background: rgb(255,128,69);
+    background: linear-gradient(90deg, rgba(255,128,69,1) 0%, rgba(255,210,106,1) 100%);
+    border-radius: 10px;
+    background-blend-mode: initial;
+  }
+
+  .contactFormChild {
+    display: block;
+    margin: auto;
+    height: 70%;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+
+  .contactFormTitle {
+      width: 100%;
+    }
+
+  .contactInfo {
+    height: 40px;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .hrContact {
+    width: 80%;
+    margin: auto;
+  }
+
+  .contactButton {
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}

@@ -3,6 +3,7 @@ import instagram from '../imagesHome/social-media/instagram.png';
 import youtube from '../imagesHome/social-media/youtube.png';
 import {Link} from 'react-router-dom';
 import {useDispatch} from 'react-redux';
+import '../../css/Footer.css'
 
 const Footer = () => {
 
