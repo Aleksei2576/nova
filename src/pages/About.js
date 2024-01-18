@@ -76,7 +76,7 @@ function About() {
 						</div>
 					</div>
 				</div>
-				<div className = 'fifth-step flex'>
+				<div className = 'fifth-step'>
 					<div className = 'step-title'>
 						Forth step
 					</div>
@@ -91,7 +91,7 @@ function About() {
 				<div className = 'center'>
 					<div className = 'installation'></div>
 				</div>
-				<div className = 'fifth-step flex'>
+				<div className = 'fifth-step'>
 					<div className = 'step-title'>
 						Fifth step
 					</div>

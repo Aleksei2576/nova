@@ -39,11 +39,13 @@ const Block = () => {
 
 	return(
 		<div className = 'dis-container'>
-			<div className = ''>
-				<h2 className = 'gradient2'>Do you have a project?</h2>
-				<p className = 'discription'>Our manager will give you an answer <br/>
-												   about our price, sceduale? and products
-				</p>
+			<div>
+				<div className = 'have'>
+					<h2 className = 'gradient2'>Do you have a project?</h2>
+					<p className = 'discription'>Our manager will give you an answer <br/>
+													   about our price, sceduale? and products
+					</p>
+				</div>
 
 			<div className = 'contactFormBody'>
 				<div className = 'contactForm'>

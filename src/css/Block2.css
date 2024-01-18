@@ -3,6 +3,11 @@
   color: white;
 }
 
+.have {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
 .discription {
   width: 50%;
   font-size: 20px;
@@ -103,6 +108,17 @@
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .discription {
     width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .have {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  .dis-container h2 {
+    text-align: center;
   }
 
   .contactForm {

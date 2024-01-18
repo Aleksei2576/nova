@@ -9,7 +9,7 @@ const Block_1 = () => {
 
 	return(
 		<div className = 'dis-container'>
-			<h2 className = 'gradient center'>Nova is your trustable Stretch Ceiling</h2>
+			<h2 className = 'first-title gradient center'>Nova is your trustable Stretch Ceiling</h2>
 			<h2 className = 'gradient center'>& Wall Systems company</h2>
 			<div className = 'Dis'>
 				<div className = 'img-block-1'>
