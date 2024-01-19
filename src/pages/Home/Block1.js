@@ -53,16 +53,6 @@ const Block_1 = () => {
 			  			perforated ceiling
 			  		</div>
 			  </div>
-			  <div class="acousticFabric grid-item">
-			  		<div className = 'type'>
-			  			Acoustic fabric panels
-			  		</div>
-			  </div>
-			  <div class="printCeilings grid-item">
-			  		<div className = 'type'>
-			  			Print ceiling
-			  		</div>
-			  </div>
 			</div>
 		</div>
 		)
