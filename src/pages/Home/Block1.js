@@ -50,7 +50,7 @@ const Block_1 = () => {
 			  </div>
 			  <div class="perforatedCelings grid-item">
 			  		<div className = 'type'>
-			  			perforated ceiling
+			  			track systems
 			  		</div>
 			  </div>
 			</div>
