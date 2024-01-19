@@ -13,6 +13,7 @@
   width: 50%;
   margin: 50px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-image: url('../pages/imagesPages/sol-img-6.jpg');
 }
@@ -40,31 +41,23 @@
 }
 
 .matteCeiling {
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  background-image: url('../pages/imagesPages/matte.jpg');
 }
 
 .glossCeiling{  
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  background-image: url('../pages/imagesPages/gloss.jpg');
 }
 
 .backlightCeiling{
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  background-image: url('../pages/imagesPages/backlit.jpg');
 }
 
 .ledSolutions{
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  background-image: url('../pages/imagesPages/led.jpg');
 }
 
 .perforatedCelings {
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
-}
-
-.acousticFabric {
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
-}
-
-.printCeilings {
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  background-image: url('../pages/imagesPages/track.jpg');
 }
 
 .grid-container {
@@ -74,10 +67,8 @@
 }
 
 .grid-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-size: cover;
+  background-position: center;
   height: 600px;
   width: 100%;
   font-size: 30px;
@@ -85,8 +76,6 @@
 
 .type {
   text-transform: uppercase;
-  background-color: black;
-  opacity: 0.8;
   padding: 10px;
 }
 
