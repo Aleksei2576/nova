@@ -49,6 +49,8 @@ const Block = () => {
 
 			<div className = 'contactFormBody'>
 				<div className = 'contactForm'>
+					{!success?
+					<div className = 'contactForm'>
 						<div className = 'contactFormTitle'>Fill the form</div>
 						<div className = 'contactFormChild'>
 							<div>
@@ -76,6 +78,9 @@ const Block = () => {
 							<div  onClick = {() => onSubmit()} className = 'contactButton center'>{loading? 'Sending...': 'Submit' }
 							</div>
 						</div>
+					</div>	
+					: <div className = 'successTitle'>Thank you! Our manager will contact you soon!</div>
+					}	
 				</div>
 			</div>
 			</div>

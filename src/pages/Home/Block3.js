@@ -11,7 +11,7 @@ const Block3 = () => {
 						 Рассказывает о культуре, ценообразовании и новых решениях в сфере натяжных потолков.</p>
 					</div>
 					<div className = 'alex commonImg'>
-						<div className = 'names'>Aleksei Palguev</div>
+						<div className = 'names'>Alex Palguev</div>
 					</div>
 					<div className = 'sergio commonImg'>
 						<div className = 'names'>Sergio Olivera </div>

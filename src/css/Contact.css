@@ -1,3 +1,10 @@
 .contact {
   padding-bottom: 100px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .contact {
+    padding: 0 20px;
+    padding-bottom: 100px;
+  }
+}

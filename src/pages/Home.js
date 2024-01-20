@@ -2,18 +2,18 @@ import Block1 from './Home/Block1';
 import Block2 from './Home/Block2';
 import Block3 from './Home/Block3';
 import Slogan from './Home/Slogan';
-import {useRef} from 'react';
+// import { Element } from 'react-scroll'
 
 function Home() {
-
-	const ref = useRef()
-
 	return(
 		<div>
-			<Slogan scollToRef = {ref} />
+			<Slogan />
 			<Block1 />
 			<Block3 />
-			<Block2 ref={ref}/>
+			<Block2 />
+{/*			<Element id = 'contactUs' name = 'contactUs'>
+				<Block2 />
+			</Element>*/}
 		</div>
 	)
 }

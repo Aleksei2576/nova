@@ -12,11 +12,13 @@
 }
 
 .alex {
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  background-image: url('../pages/imagesPages/alex.jpg');
 }
 
 .sergio { 
-  background-image: url('../pages/imagesPages/star-ceiling.jpg');
+  background-image: url('../pages/imagesPages/sergio.jpg');
+  display: flex;
+  align-items: flex-end;
 }
 
 .founders {
@@ -34,19 +36,12 @@
   color: white;
   text-transform: uppercase;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 30px;
   opacity: 0.9;
 }
 
 .commonImg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-size: cover;
-  background-position: center ;
   margin-bottom: 30px;
   height: 400px;
   width: 300px;

@@ -119,9 +119,46 @@
 	margin: 20px;
 }
 
+.warranty {
+	background-color: rgb(181,120,255);
+    background-image: linear-gradient(90deg, rgba(181,120,255,1) 0%, rgba(255,128,69,1) 50%, rgba(255,210,106,1) 100%);
+	width: 50vw;
+}
+
+.warrantyBody {
+	margin: 100px 0;
+}
+
+.warrantyInside {
+	background-color: #17191a;
+	height: 50vh;
+	margin: 10px;
+} 
+
+.warrantyText {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
 @media screen and (min-width: 320px) and (max-width: 600px) {
 	.about-image {
 		height: 90vh;
+	}
+
+	.warranty {
+		width: 80vw;
+		text-align: center;
+	}
+
+	.warrantyInside {
+		background-color: #17191a;
+		height: 50vh;
+		margin: 5px;
+	} 
+
+	.warrantyText {
+		font-size: 30px;
+		padding: 10px;
 	}
 
 	.step-body {

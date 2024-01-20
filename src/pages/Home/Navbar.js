@@ -32,13 +32,13 @@ function NavBar() {
 					About us
 			    </Link>
 		      </li>
-		      <li>
+{/*		      <li>
 		        <Link onClick = {() => dispatch({type: 'products'})} 
 		        		id = {route === '/products'? idActive: id} 
 		        		to = '/products'>
 		        	Portfolio
 		        </Link>
-		      </li>
+		      </li>*/}
 		      <li>
 		        <Link onClick = {() => dispatch({type: 'contact'})}
 		        		id = {route === '/contact'? idActive: id} 

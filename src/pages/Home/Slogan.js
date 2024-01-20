@@ -1,11 +1,8 @@
 import '../../css/Slogan.css';
+// import Scroll from 'react-scroll';
+// const ScrollLink = Scroll.ScrollLink
 
-function Slogan({scollToRef}) {
-	
-	function scrollTo(ref) {
-	    if (!ref.current) return;
-	    ref.current.scrollIntoView({ behavior: "smooth" });
-	  }
+function Slogan() {
 
 	return(
 		<div className = 'start'>
@@ -16,9 +13,17 @@ function Slogan({scollToRef}) {
 						who value quality and design
 					</div>
 				</div>
-				<div onClick={() => scrollTo(scollToRef)}
-					 className = 'btn-slogan-body'>
-					<div className = 'btn-slogan'>You have a project?</div>
+				<div className = 'btn-slogan-body'>
+{/*					<ScrollLink 
+				        to="example-destination" 
+				        spy={true} 
+				        smooth={true} 
+				        duration={500} 
+				        className = 'btn-slogan' 
+				        activeClass='some-active-class'
+				      >
+				        You have a project?
+				    </ScrollLink>  */}     
 				</div>
 			</div>
 		</div>

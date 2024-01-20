@@ -107,9 +107,6 @@
   }
 
   .grid-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-size: cover;
     height: 100vw;
     width: 100%;

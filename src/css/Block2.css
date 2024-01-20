@@ -3,6 +3,11 @@
   color: white;
 }
 
+.successTitle{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
 .have {
   padding-left: 50px;
   padding-top: 50px;
@@ -110,6 +115,13 @@
     width: 100%;
     text-align: center;
     margin-top: 30px;
+  }
+
+  .successTitle {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
   }
 
   .have {
