@@ -9,13 +9,12 @@ const Block_1 = () => {
 
 	return(
 		<div className = 'dis-container'>
-			<h2 className = 'first-title gradient center'>Nova is your trustable Stretch Ceiling</h2>
-			<h2 className = 'gradient center'>& Wall Systems company</h2>
+			<h2 className = 'first-title gradient center'>Nova is INNOVATIVE CEILING AND LIGHTING STUDIO</h2>
 			<div className = 'Dis'>
 				<div className = 'img-block-1'>
 				</div>
 				<div className = 'img-after'>
-					<p className = 'textAbout'>We design your project and install it according to your imagination. We have solutions for Star Ceiling, Glossy Ceiling, Matte Ceiling, Acoustic Ceiling, Backlit Ceiling, Custom Printing, Laser Cut, Integrated Lighting, Soundproof Solutions. Let’s create your dream place together</p>
+					<p className = 'textAbout'>We create new solutions for stretch ceilings and lighting</p>
 				</div>
 			</div>
 			
