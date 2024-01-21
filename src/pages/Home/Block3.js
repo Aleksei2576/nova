@@ -6,9 +6,8 @@ const Block3 = () => {
 			<h2 className = 'center'>Nova - the company with human face</h2>
 				<div className = 'block3Body'>
 					<div className = 'founders'>
-						<p>Иван Журавлёв, ведет видеоблог с 2015 года. Показывает работу мастера на объекте.
-						 Рассказывает о культуре, ценообразовании и новых решениях в сфере натяжных потолков.Иван Журавлёв, ведет видеоблог с 2015 года. Показывает работу мастера на объекте.
-						 Рассказывает о культуре, ценообразовании и новых решениях в сфере натяжных потолков.</p>
+						<p>The founders - Sergio and Alex, with more than 10 years expirience in stretch systems.
+						We look at the problem from different angles and offer solutions beyond the usual ideas</p>
 					</div>
 					<div className = 'alex commonImg'>
 						<div className = 'names'>Alex Palguev</div>

@@ -25,13 +25,13 @@ function NavBar() {
 		        	Home
 		        </Link>
 		      </li>
-		      <li>
+		    {/*  <li>
 				<Link onClick = {() => dispatch({type: 'about'})} 
 						id = {route === '/about'? idActive: id} 
 						to = '/about'>
 					About us
 			    </Link>
-		      </li>
+		      </li>*/}
 {/*		      <li>
 		        <Link onClick = {() => dispatch({type: 'products'})} 
 		        		id = {route === '/products'? idActive: id} 

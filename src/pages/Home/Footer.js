@@ -17,10 +17,10 @@ const Footer = () => {
 				INFO@NOVASTRETCHCEILINGS.COM
 			</div>
 			<div className = 'media'>
-				<a target = '_blank' rel="noreferrer" href = 'https://www.facebook.com/avstyledesign'><img className = 'media-icon' alt = '' src = {facebook}/></a>
-				<a target = '_blank' rel="noreferrer" href = 'https://www.instagram.com/avstyledesign'><img className = 'media-icon' alt = '' src = {instagram}/></a>
+				{/*<a target = '_blank' rel="noreferrer" href = 'https://www.facebook.com/avstyledesign'><img className = 'media-icon' alt = '' src = {facebook}/></a>*/}
+				<a target = '_blank' rel="noreferrer" href = 'https://www.instagram.com/nova_ceilings'><img className = 'media-icon' alt = '' src = {instagram}/></a>
 {/*				<a target = '_blank' rel="noreferrer" href = 'https://twitter.com/avstylescs'><img className = 'media-icon' alt = '' src = {twitter}/></a>
-*/}				<a target = '_blank' rel="noreferrer" href = 'https://www.youtube.com/channel/UCecXFqOAzXJcLs48aR3JHHg'><img className = 'media-icon' alt = '' src = {youtube}/></a>
+*/}				{/*<a target = '_blank' rel="noreferrer" href = 'https://www.youtube.com/channel/UCecXFqOAzXJcLs48aR3JHHg'><img className = 'media-icon' alt = '' src = {youtube}/></a>*/}
 			</div>
 		 	<div className = 'privacy'>
 		 		<ul>

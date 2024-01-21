@@ -43,7 +43,7 @@ const Block = () => {
 				<div className = 'have'>
 					<h2 className = 'gradient2'>Do you have a project?</h2>
 					<p className = 'discription'>Our manager will give you an answer <br/>
-													   about our price, sceduale? and products
+													   about our price, scedule and products
 					</p>
 				</div>
 

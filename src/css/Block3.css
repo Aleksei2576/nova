@@ -19,6 +19,7 @@
   background-image: url('../pages/imagesPages/sergio.jpg');
   display: flex;
   align-items: flex-end;
+  background-position: right;
 }
 
 .founders {

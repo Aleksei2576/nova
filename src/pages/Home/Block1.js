@@ -14,7 +14,7 @@ const Block_1 = () => {
 				<div className = 'img-block-1'>
 				</div>
 				<div className = 'img-after'>
-					<p className = 'textAbout'>We create new solutions for stretch ceilings and lighting</p>
+					<p className = 'textAbout'>The ceiling is the largest plane of the interior. We change the way we look at the ceiling. Let's think about how people will use the space. We discuss the functional areas, the amount of light and its location. We think about ways to control the light in different scenarios of life, during the day or in the evening</p>
 				</div>
 			</div>
 			
