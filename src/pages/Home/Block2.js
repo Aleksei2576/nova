@@ -11,7 +11,7 @@ const Block = () => {
 
 	const onSubmit = () => {
 		setLoading(true)
-		fetch('http://localhost:3334/send-email', {
+		fetch('https://nova-server-5l00.onrender.com/send-email', {
 			method: 'post',
 			headers: {
 				'Content-Type': 'application/json',
