@@ -13,7 +13,7 @@ const Block3 = () => {
 						<div className = 'names'>Alex Palguev</div>
 					</div>
 					<div className = 'sergio commonImg'>
-						<div className = 'names'>Sergio Olivera </div>
+						<div className = 'names'>Sergio Oliveira </div>
 					</div>
 				</div>
 			
