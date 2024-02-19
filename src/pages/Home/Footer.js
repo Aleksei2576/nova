@@ -22,22 +22,7 @@ const Footer = () => {
 {/*				<a target = '_blank' rel="noreferrer" href = 'https://twitter.com/avstylescs'><img className = 'media-icon' alt = '' src = {twitter}/></a>
 */}				{/*<a target = '_blank' rel="noreferrer" href = 'https://www.youtube.com/channel/UCecXFqOAzXJcLs48aR3JHHg'><img className = 'media-icon' alt = '' src = {youtube}/></a>*/}
 			</div>
-		 	// <div className = 'privacy'>
-		 	// 	<ul>
-		 	// {/*		<li>
-		 	// 			<Link className = 'list-footer' onClick = {() => dispatch({type: 'contact'})} 			        		
-			 //        		to = '/contact'>
-			 //        		Contact
-			 //        	</Link>
-			 //        </li>*/}
-		 	// 		<li >
-		 	// 				<Link className = 'list-footer' onClick = {() => dispatch({type: 'contact'})} 				        		
-			 //        		to = '/contact'>
-			 //        		Privacy policy		
-			 //        	</Link>
-			 //        </li>
-		 	// 	</ul>
-		 	// </div>
+		 	
 		 	<div className = 'rights'>
 		 		©2024 Nova Stretch Ceilings. All Rights Reserved
 		 	</div>
