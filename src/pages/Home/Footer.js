@@ -12,8 +12,8 @@ const Footer = () => {
 	return(
 		<div className = 'footer'>
 			<div className = 'phone'>
-				+1 (647) 829 02 10 <br/>
-				+1 (647) 829 02 10 <br/>
+				+1 (647) 829-0210 <br/>
+				+1 (236) 514-4513 <br/>
 				INFO@NOVASTRETCHCEILINGS.COM
 			</div>
 			<div className = 'media'>
