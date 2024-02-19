@@ -10,10 +10,10 @@ const Block3 = () => {
 						We look at the problem from different angles and offer solutions beyond the usual ideas</p>
 					</div>
 					<div className = 'alex commonImg'>
-						<div className = 'names'>Alex Palguev</div>
+						<div className = 'names'>Alex</div>
 					</div>
 					<div className = 'sergio commonImg'>
-						<div className = 'names'>Sergio Oliveira </div>
+						<div className = 'names'>Sergio</div>
 					</div>
 				</div>
 			
