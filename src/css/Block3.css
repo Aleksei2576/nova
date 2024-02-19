@@ -13,6 +13,9 @@
 
 .alex {
   background-image: url('../pages/imagesPages/alex.jpg');
+  display: flex;
+  align-items: flex-start;
+  background-position: center;
 }
 
 .sergio { 
