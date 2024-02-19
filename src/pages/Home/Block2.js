@@ -73,8 +73,6 @@ const Block = () => {
 								</div>
 								<hr className = 'hrContact' />
 							</div>
-							<div className = 'contactButton center'>Attach your file
-							</div>
 							<div  onClick = {() => onSubmit()} className = 'contactButton center'>{loading? 'Sending...': 'Submit' }
 							</div>
 						</div>
