@@ -9,7 +9,6 @@ function Home() {
 		<div>
 			<Slogan />
 			<Block1 />
-			<Block3 />
 			<Block2 />
 {/*			<Element id = 'contactUs' name = 'contactUs'>
 				<Block2 />
