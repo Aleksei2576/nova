@@ -10,6 +10,7 @@ function Home() {
 			<Slogan />
 			<Block1 />
 			<Block2 />
+		    <Block3 />
 {/*			<Element id = 'contactUs' name = 'contactUs'>
 				<Block2 />
 			</Element>*/}
